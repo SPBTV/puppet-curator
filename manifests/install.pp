@@ -27,7 +27,7 @@ class curator::install (
           $_package_provider = 'apt'
         }
         'RedHat': {
-          $_package_name     = 'python-elasticsearch-curator'
+          $_package_name     = 'elasticsearch-curator'
           $_package_provider = 'yum'
         }
         default: {
